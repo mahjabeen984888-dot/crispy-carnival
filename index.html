@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Course - Home</title>
+    <style>
+        /* ===== BASIC RESET ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2em;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd00;
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #0077b6;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0077b6;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        article {
+            margin-bottom: 25px;
+        }
+
+        article h3 {
+            color: #023e8a;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            line-height: 1.8;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 40px;
+        }
+
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: #ffdd00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer p {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WebDev Course</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to Our new project</h2>
+            <article>
+                <h3>About This Course</h3>
+                <p>This course provides comprehensive training in modern web development technologies, starting with HTML5 fundamentals.</p>
+                <p>You'll learn to create semantic, accessible web pages that follow current web standards.</p>
+            </article>
+            
+            <article>
+                <h3>Course Features</h3>
+                <ul>
+                    <li>HTML5 Semantic Elements</li>
+                    <li>Forms and Input Validation</li>
+                    <li>Accessibility Best Practices</li>
+                    <li>Responsive Design Principles</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>What You'll Learn</h3>
+                <ol>
+                    <li>HTML5 structure and semantics</li>
+                    <li>Creating accessible web forms</li>
+                    <li>Building multi-page websites</li>
+                    <li>Web standards and best practices</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <p>This website demonstrates HTML5 semantic structure with basic CSS styling.</p>
+    </footer>
+</body>
+</html>
